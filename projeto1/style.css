@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: azure;
+}
+.cartao, img, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background-color: rgb(135, 165, 209);
+    border-radius: 25px;
+}
+img{
+    margin: 15%;
+    width: 300px;
+    height: auto;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    left: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+.cartao{
+    box-shadow: 10px 10px 5px grey;
+}
+.cartao:hover/*faz ao passar o mouse*/{
+    transform: scale(1.1); /* Aumenta o tamanho do cartão em 10% ao passar o mouse */
+    box-shadow: 15px 15px 10px grey;
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .footer_nav {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px;
+        align-items: center;
+    }
+    .account, .for_business, .apple_values, .about_apple {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    button {
+        width: 90vw;
+        max-width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    body {
+        padding: 10px;
+    }
+}
+@media (max-width: 300px) {
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 8px;
+    }
+    .footer_nav {
+        flex-direction: column;
+        gap: 5px;
+        margin: 5px;
+        align-items: center;
+    }
+    .account, .for_business, .apple_values, .about_apple {
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    button {
+        width: 90vw;
+        max-width: 100px;
+        height: 40px;
+        font-size: 8px;
+    }
+    body {
+        padding: 5px;
+    }
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    text-align: center;
+    align-items: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(61, 61, 61);
+    align-items: stretch; /* Faz os blocos ocuparem toda a largura */
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.iBanana_Pro{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    align-items: stretch;
+}
+.iBanana_Air{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: stretch;
+}
+.iBanana{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: stretch; /*Pra ajustar os intens certinho (verticalmente em certas situações)*/
+}
+.iBanana button{
+    border-color: rgb(0, 209, 209);
+    background-color: white;
+    color: black;
+}
+.iBanana_Air button{
+    border-color: rgb(0, 209, 209);
+    background-color: white;
+    color: black;
+}
+.buy{
+    background-color: aqua;
+    color: rgb(16, 16, 16);
+}
+button{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-color: aqua; /* eu sempre esqueço o border :/ */
+    border-radius: 10px;
+    cursor: pointer;
+}
+header, a{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+header, a:hover{
+    padding: 20px
+}
+footer{
+    text-align: center;
+    font-size: 10x;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+.footer_nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /*Pra alinhar*/
+    gap: 20px;
+    margin: 20px;
+}
+.account p, .for_business p,.apple_values p, .about_apple p {
+    cursor: pointer;
+}
+.account,.for_business,.apple_values,.about_apple {
+    background-color: rgb(69, 69, 69);
+    color: white;
+    width: 220px;
+    height: auto;
+    border-color: aqua; /* eu sempre esqueço o border :/ */
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box; /*Pra layoults*/
+}
