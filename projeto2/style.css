@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Wingdings';
 }
 @media (max-width: 600px) {
     h1 {
